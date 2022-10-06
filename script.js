@@ -1,3 +1,7 @@
-gsap.to('.fred', { x: 700, y: 100, scale: 2, rotation: 1080, duration: 10 })
-
-console.log('hello w')
+gsap.timeline().from('.fred', {
+  xPercent: 500,
+  durection: 3,
+  opacity: 0,
+  scale: 0,
+  stagger: 0.2,
+})
